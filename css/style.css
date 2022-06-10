@@ -52,4 +52,12 @@ table {
   border-spacing: 0;
 }
 
+.first-logo img {
+  width: 150px;
+}
+
+.second-logo img {
+  width: 150px;
+}
+
 /*# sourceMappingURL=style.css.map */
