@@ -4,4 +4,13 @@
 
 .second-logo img{
     width: 150px;
+    position: relative;
+    bottom: 10%;
+}
+
+.picture-landing-page {
+    display: flex;
+    background-image: url(/images/valorant.jpg);
+    object-fit: contain;
+    height: 85vh;
 }

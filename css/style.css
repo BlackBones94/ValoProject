@@ -58,6 +58,59 @@ table {
 
 .second-logo img {
   width: 150px;
+  position: relative;
+  bottom: 10%;
+}
+
+.picture-landing-page {
+  display: flex;
+  background-image: url(/images/valorant.jpg);
+  object-fit: contain;
+  height: 85vh;
+}
+
+header {
+  background-color: #3f4c6b;
+  height: 120px;
+}
+
+.head-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ul-nav-bar ul {
+  display: flex;
+  position: relative;
+  top: 55%;
+}
+.ul-nav-bar ul li {
+  font-size: large;
+  padding: 0px 55px 0px 55px;
+}
+
+.foot-nav ul {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 25px;
+  height: 50px;
+}
+.foot-nav ul li {
+  padding: 0px 50px 0px 50px;
+  font-size: x-large;
+}
+
+.bottom-landing-page {
+  background-color: red;
+  height: 250px;
+}
+
+section {
+  position: fixed;
+  width: 20%;
+  padding-left: 5%;
+  padding-top: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */
