@@ -64,13 +64,12 @@ table {
 
 .picture-landing-page {
   display: flex;
-  background-image: url(/images/valorant.jpg);
   object-fit: contain;
-  height: 85vh;
+  height: 78vh;
 }
 
 header {
-  background-color: #3f4c6b;
+  background-color: rgba(0, 0, 0, 0.5);
   height: 120px;
 }
 
@@ -85,32 +84,58 @@ header {
   top: 55%;
 }
 .ul-nav-bar ul li {
+  color: white;
   font-size: large;
   padding: 0px 55px 0px 55px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 76px;
 }
 
 .foot-nav ul {
   display: flex;
   justify-content: center;
-  position: relative;
-  top: 25px;
-  height: 50px;
+  transform: translateY(100%);
 }
 .foot-nav ul li {
+  color: white;
   padding: 0px 50px 0px 50px;
   font-size: x-large;
 }
 
 .bottom-landing-page {
-  background-color: red;
+  background-color: rgba(0, 0, 0, 0.5);
   height: 250px;
+  display: block;
+  border-radius: 5%;
+}
+.bottom-landing-page p {
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  transform: translateY(200%);
+  color: white;
 }
 
 section {
-  position: fixed;
+  position: sticky;
   width: 20%;
   padding-left: 5%;
   padding-top: 5%;
+}
+
+.btn-submit {
+  width: 50%;
+  height: 15%;
+  transform: translateX(50%) translateY(250%);
+  border-radius: 5px;
+}
+
+body {
+  background-image: url(/images/valorant.jpg);
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

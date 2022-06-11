@@ -1,13 +1,17 @@
+footer{
+     background-color:rgba(0, 0, 0, 0.5);  
+    height: 76px;
+}
 
 .foot-nav ul{
     display: flex;
     justify-content: center;
-    position: relative;
-    top: 25px;
-    height: 50px;
+    // height: 100px;
+    transform: translateY(100%);
     li{
-            padding: 0px 50px 0px 50px;
-            font-size: x-large;
+        color: white;
+        padding: 0px 50px 0px 50px;
+        font-size: x-large;
         }
 }   
     

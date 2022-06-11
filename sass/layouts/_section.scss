@@ -1,10 +1,20 @@
 .bottom-landing-page{
-    background-color: red;
+    background-color:rgba(0, 0, 0, 0.5);    
     height: 250px;
+    display: block;
+    border-radius: 5%;
+    p{
+        font-size:x-large;
+        display: flex;
+        justify-content: center;
+        transform: translateY(200%);
+        color: white;
+    }
 }
 
+
 section{
-    position: fixed;
+    position: sticky;
     width: 20%;
     padding-left: 5%;
     padding-top: 5%;

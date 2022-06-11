@@ -3,7 +3,7 @@
 // }
 
 header{
-    background-color: #3f4c6b;
+    background-color: rgba(0, 0, 0, 0.5);    
     height:120px;
 }
 
@@ -17,6 +17,7 @@ header{
     position: relative;
     top: 55%;
         li{
+            color: white;
             font-size: large;
             padding: 0px 55px 0px 55px;
         }

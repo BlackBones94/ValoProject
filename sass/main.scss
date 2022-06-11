@@ -6,3 +6,15 @@
 @import "layouts/header";
 @import "layouts/footer";
 @import "layouts/section";
+
+// components
+
+@import "components/inputs";
+
+// abstracts
+
+@import "abstracts/variables";
+
+// pages
+
+@import "pages/home";
